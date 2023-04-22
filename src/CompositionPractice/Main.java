@@ -10,6 +10,15 @@ public class Main {
         myCat.speak();
 
         System.out.println(myCat.getName());
-    }
 
+        Person per1 = new Person("HARRY HANGRY HORROR SHOW");
+        Person per2 = new Person("BYONG HANGRY HORROR SHOW");
+
+        per1.setPet(myDog);
+        per2.setPet(myCat);
+
+        System.out.println((per1.getPet()).getName());
+
+
+    }
 }
