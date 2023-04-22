@@ -1,3 +1,5 @@
+package MultiLevelInheritanceYoutubeBaldGuy;
+
 public class Carnivore {
     final private String diet = "Meat";
 

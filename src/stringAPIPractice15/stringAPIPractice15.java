@@ -1,3 +1,5 @@
+package stringAPIPractice15;
+
 public class stringAPIPractice15 {
 
     static String replaceAllAWithX(String thingToCheck){
