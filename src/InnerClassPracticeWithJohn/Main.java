@@ -7,7 +7,7 @@ public class Main {
 
         outer.heyThere();
 
-        OuterClass.InnerClass inner = outer.new InnerClass(); //As the InnerClass is not static we need to access it through an instantiated object of the outer class in this case "outer".
+        OuterClass.InnerClass inner = new OuterClass.InnerClass(); //As the InnerClass is not static we need to access it through an instantiated object of the outer class in this case "outer".
 
         inner.innerClassPrint();
     }

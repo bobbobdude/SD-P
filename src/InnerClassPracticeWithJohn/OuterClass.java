@@ -7,7 +7,11 @@ public class OuterClass {
         System.out.println("Hey there!");
     }
 
-    public class InnerClass{
+    class LocalInnerClass{
+
+    }
+
+    public static class InnerClass{
         int innerNum = 8;
         public void innerClassPrint(){
             System.out.println("Hey there from the inner class!");
